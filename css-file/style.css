@@ -1,0 +1,26 @@
+.container{
+    border: 4px dotted rgb(255, 47, 224);
+    display: flex;
+    /* justify-content: space-evenly;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: end; */
+    justify-content: center;
+
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    align-items: center;
+    
+    /* flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+
+    /* flex-wrap: nowrap; */
+    height: 400px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed rgb(150, 128, 240);
+}
