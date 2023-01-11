@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    width: 150px;
+    background-color: rgb(204, 50, 155);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+.login-form input{
+    /* margin-top: 10px; */
+    margin-top: 1em;
+    font-size: 1em;
+    padding: 5px 10px;
+}
+.login-form input[type="submit"]{
+    background-color: goldenrod;
+    border: 0;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700;
+}
